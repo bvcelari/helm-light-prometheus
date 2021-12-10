@@ -3,16 +3,16 @@ entries:
   argocd-mini-prometheus:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-12-07T09:25:13.398868492+01:00"
+    created: "2021-12-10T08:00:33.686839655+01:00"
     dependencies:
     - name: prometheus
       repository: https://prometheus-community.github.io/helm-charts
       version: 15.0.1
     description: A Helm chart to deploy Mini-Prometheus
-    digest: d8b83392c2179302907d561aa21c29b368eb1f9275c00d9dedb5f1ac0595738e
+    digest: 4bbe207edecaec5562813e2b1c5caa4873edd4783f9add457c4f9183f1b62bef
     name: argocd-mini-prometheus
     type: application
     urls:
-    - https://bvcelari.github.io/helm-light-prometheus/argocd-mini-prometheus-0.1.0.tgz
-    version: 0.1.0
-generated: "2021-12-07T09:25:13.390327471+01:00"
+    - https://bvcelari.github.io/helm-light-prometheus/argocd-mini-prometheus-0.2.0.tgz
+    version: 0.2.0
+generated: "2021-12-10T08:00:33.678802881+01:00"
